@@ -13,8 +13,8 @@ public class PersonApp {
         importantPersson.setName("Tom");
         importantPersson.setAge(25);
 
-        System.out.println(person.getName() + "\n" + person.age);
-        System.out.println(importantPersson.getName() + "\n" + importantPersson.age);
+        System.out.println(person.getName() + "\n" + person.getAge());
+        System.out.println(importantPersson.getName() + "\n" + importantPersson.getAge());
 
         person.presentYourself();
         importantPersson.presentYourself();
