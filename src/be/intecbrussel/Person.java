@@ -37,6 +37,7 @@ public class Person {
         String sentence = buildPresentationSentence();
         System.out.println(sentence);
     }
+
     private String buildPresentationSentence() { // private hulpmethode
         return "I am " + name + " and I am " + age + " years old.";
     }
@@ -45,6 +46,7 @@ public class Person {
     public String getName() {
         return name;
     }
+
     public int getAge() {
         return age;
     }
@@ -78,12 +80,10 @@ public class Person {
 //        }
 //    }
 
-    // Setter
     public void setAge(int age) { // -> parameter
         this.age = Math.abs(age);
     } // -> beste oplossing!!!
 
-    // Setter
     public void setName(String name) {
 //        if (!name.isBlank() && name.length() > 0) {
 //            this.name = name.trim();
